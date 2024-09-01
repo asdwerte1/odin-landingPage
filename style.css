@@ -70,7 +70,7 @@ a {
     width: 400px;
 }
 
-#header-sign-up {
+.sign-up {
     background-color: #3882f6;
     padding: 10px 20px;
     border-radius: 10px;
@@ -144,6 +144,36 @@ h2 {
 #quoteName {
     font-weight: bold;
     text-align: right;
+}
+
+#section3 {
+    text-align: center;
+}
+
+#callToAction {
+    display: flex;
+    flex-direction: row;
+    margin: 60px 180px;
+    justify-content: space-around;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: solid thin transparent;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+#CTAText {
+    text-align: left;
+}
+
+.CTAText {
+    margin: 0;
+}
+
+.footer-sign-up {
+    border-color: #e5e7eb;
+
 }
 /* ---- Footer Section ---- */
 

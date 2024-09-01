@@ -1,0 +1,158 @@
+/* ---- Whole Doc ---- */
+html {
+    background-color: #222;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+/* ---- Header Section ---- */
+header {
+    background-color: #1f2937;
+    padding-bottom: 80px;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo-text {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header-box {
+    width: 50%;
+    padding: 10px;
+}
+
+#header-img {
+    background-color: grey;
+    color: #f9faf8;
+    height: 200px;
+    width: 400px;
+}
+
+#header-sign-up {
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: solid thin #3882f6;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+#headerSubText {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* ---- Sections ---- */
+
+section {
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.image {
+    height: 130px;
+    width: 130px;
+    border: solid medium #3882f6;
+    border-radius: 10px;
+}
+
+#images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.figure {
+    width: 130px;
+    margin: 0 20px;
+}
+
+.figureText {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+#quoteSection {
+    background-color: #e5e7eb;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#quoteContainer {
+    width: 60%;
+
+}
+#quoteText {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+#quoteName {
+    font-weight: bold;
+    text-align: right;
+}
+/* ---- Footer Section ---- */
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+}
+
+#footerText {
+    padding: 20px ;
+}
